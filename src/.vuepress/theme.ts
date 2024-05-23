@@ -8,7 +8,12 @@ export default hopeTheme({
   author: {
     name: "山中人",
   },
+  lastUpdated: false,
+
+  contributors: false,
+  titleIcon: false,
   darkmode: "auto",
+
   iconAssets: "fontawesome-with-brands",
 
   logo: "/logo.png",
