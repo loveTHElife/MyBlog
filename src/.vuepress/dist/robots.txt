@@ -1,5 +1,0 @@
-
-User-agent:*
-Disallow:
-
-Sitemap: https://lovethelife.github.io/MyBlog/sitemap.xml
