@@ -5,4 +5,5 @@ export default navbar([
   "/computer/",
   "/frontEnd/",
   "/backEnd/",
+  "/about/",
 ]);

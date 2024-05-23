@@ -4,5 +4,6 @@ export default sidebar({
   "/computer/": "structure",
   "/frontEnd/": "structure",
   "/backEnd/": "structure",
+  "/about/": "structure",
   "/": [],
 });
