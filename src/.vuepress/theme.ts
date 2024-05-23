@@ -33,7 +33,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "主题: VuePress Theme Hope",
   displayFooter: true,
 
   // 博客相关
