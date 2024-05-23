@@ -3,19 +3,23 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://lovethelife.github.io/",
 
   author: {
     name: "山中人",
   },
-
+  darkmode: "auto",
   iconAssets: "fontawesome-with-brands",
 
   logo: "/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  favicon: "/favicon.ico",
+
+  repo: "https://github.com/loveTHElife/MyBlog/",
 
   docsDir: "src",
+
+  editLinkPattern: ':repoedit/:branch/:path',
 
   // 导航栏
   navbar,
@@ -48,7 +52,7 @@ export default hopeTheme({
 
   // 多语言配置
   metaLocales: {
-    editLink: "https://github.com/loveTHElife/MyBlog",
+    editLink: "编辑",
   },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
