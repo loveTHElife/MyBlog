@@ -5,5 +5,13 @@ export default sidebar({
   "/frontEnd/": "structure",
   "/backEnd/": "structure",
   "/about/": "structure",
-  "/": [],
+  "/": [
+    // {
+    // text: "关于我",
+    // icon: "laptop",
+    // prefix: "about/",
+    // link: "about/",
+    // children: "structure",
+    // },
+  ],
 });
