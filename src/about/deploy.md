@@ -30,14 +30,18 @@ pnpm docs:clean-dev 清除缓存并启动开发服务器
 如果你准备发布到 https://<USERNAME>.github.io/ ，你可以省略这一步，因为 base 默认就是 "/" 。(仓库名修改为用户名.github.io)
 如果你准备发布到 https://<USERNAME>.github.io/<REPO>/ ，也就是说你的仓库地址是 https://github.com/<USERNAME>/<REPO> ，则将 base 设置为 "/<REPO>/"(仓库名不修改)
 - 使用github的pages和actions部署
+```
 ![alt text](image.png)
+```
 - actions使用官方提供的文档，需要修改的地方：
 1 打包工具，比如pnpm可以修改成自己选择使用的命令
 2 修改build_dir 为src/.vuepress/dist
 3 添加文档中使用的分支gh-pages
 3 github中的actions-general页面，Workflow permissions修改为Read and write permissions
 4 github中的pages页面选择Branch为gh-pages分支
+```
 ![alt text](image-1.png)
+```
 5 等待github部署项目，在visit site旁边出现网址，就可以访问了
 ```
 ## 注意
